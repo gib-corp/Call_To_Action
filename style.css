@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  background-color: #2d4480;
+}
+
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 469px;
+  width: 288px;
+  border-radius: 27px;
+  background-color: #fff;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.card-container > h1 {
+  font-family: "Noto Sans Symbols", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  color: #292929;
+  margin: 35px 0 28px 0;
+}
+
+.content {
+  margin-bottom: 27px;
+  min-width: 188px;
+}
+
+[class^="item"] {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+[class^="item"] > img {
+  height: 20px;
+  width: 20px;
+}
+
+[class^="item"] > p {
+  font-family: "Noto Sans Symbols", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 6%;
+}
+
+.line {
+  width: 188px;
+  height: 1px;
+  background-color: #292929;
+  margin: 0 auto 8px auto;
+}
+
+.action {
+  min-width: 188px;
+}
+
+.action > p:first-of-type {
+  font-family: "Noto Sans Symbols", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 13%;
+  margin: 0px 0px 8px 0px;
+  padding: 0px;
+}
+
+.action > p:nth-of-type(2) {
+  text-align: end;
+  font-family: "Allan", sans-serif;
+  font-size: 36px;
+  color: #2d4480;
+  line-height: 36px;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  position: absolute;
+  bottom: -34px;
+  width: 181px;
+  height: 68px;
+  font-family: "Noto Sans Symbols", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  border-radius: 27px;
+  background-color: #ffbc0f;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
