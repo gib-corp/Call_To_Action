@@ -4,28 +4,26 @@ This project focuses on positioning a card element at the center of the screen u
 
 ## 🎯 Project Objectives
 
-- 📚 Understand and apply the **`position`** property (`relative` and `absolute`).
-- 🎨 Learn how to center elements using **Flexbox**.
-- 🛠️ Explore the **`transform`** property to refine positioning and alignment.
+Understand and apply the **`position`** property (`relative` and `absolute`).  
+Learn how to center elements using **Flexbox**.  
+Explore the **`transform`** property to refine positioning and alignment.
 
 ## 📂 Included Files
 
-- **📄 index.html**: Contains the HTML structure of the page.
-- **🎨 style.css**: Contains the CSS styles for layout and positioning.
-- **🖼️ assets/**: (optional) Contains images used in the project.
+**index.html**: Contains the HTML structure of the page.  
+**style.css**: Contains the CSS styles for layout and positioning.  
+**assets/**: (optional) Contains images used in the project.
 
 ## 📂 Key Concepts
 
 ### Positioning:
 
-- **`relative`**: Used as a reference for `absolute` positioned children.
-- **`absolute`**: Positions an element relative to its closest positioned ancestor.
+**`relative`**: Used as a reference for `absolute` positioned children.  
+**`absolute`**: Positions an element relative to its closest positioned ancestor.
 
 ### Flexbox:
 
-- Efficiently center elements using `justify-content` and `align-items`.
-
----
+Efficiently center elements using `justify-content` and `align-items`.
 
 ## 🔍 Design Preview
 
